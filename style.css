@@ -191,11 +191,11 @@ section .title::after{
 .home .home-content .text-1{
     font-size: 27px;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
     opacity: 65%;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 550;
     margin-left: -3px;
     text-align: center;
@@ -211,7 +211,7 @@ section .title::after{
     color:#1bff06;
     font-weight: 600;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     /* -webkit-text-stroke: 0.1vw #fff; */
 
 }
