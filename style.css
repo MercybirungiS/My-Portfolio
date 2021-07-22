@@ -194,20 +194,21 @@ section .title::after{
     /* padding-top: 20%; */
 }
 .home .home-content .text-2{
-    font-size: 75px;
+  padding-top: 20%;
+    font-size: 40px;
     font-weight: 600;
     margin-left: -3px;
     text-align: center;
 }
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 60px;
     margin: 5px 0;
     text-align: center;
 }
 .home .home-content .text-3 span{
     color: #00C213;
     /* font-weight: 500; */
-    font-size:40px ;
+    font-size:60px ;
 }
 
 /* projects section styling */
@@ -405,8 +406,13 @@ section .title::after{
     content: "Get In Touch";
     background: black;
 }
+#last{
+    text-align: center;
+    font-weight: 500;
+
+}
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: calc(70% - 30px);
 }
 .contact .contact-content .text{
     font-size: 25px;
@@ -431,6 +437,7 @@ section .title::after{
 .contact .contact-content .row i{
     font-size: 25px;
     color: #00C213;
+    margin-left: 55%;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
