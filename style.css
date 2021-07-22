@@ -1,5 +1,7 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 
 *{
@@ -167,7 +169,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background:   url("/MY\ PIC.png") no-repeat center;
+    background:   url("/images/MY\ PIC.png") no-repeat center;
     background-color: #000000;
     background-blend-mode: screen;
     height: 100vh;
@@ -219,7 +221,7 @@ section .title::after{
     background: #00C213;
 }
 .projects .title::after{
-    background:black;
+    background:#111;
     content: "my creations ";
 }
 .projects .serv-content .card{
@@ -407,9 +409,10 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 500;
     margin-bottom: 10px;
+    text-align: center;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -431,6 +434,8 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    color: #00C213;
+    
 }
 .contact .contact-content .info .sub-title{
     color: #fff;
@@ -443,10 +448,12 @@ section .title::after{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
+   
 }
 .contact .right form .textarea{
     height: 80px;
     width: 100%;
+   
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -455,17 +462,19 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 2px solid #00C213;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
+    background: none;
+    color: #fff;
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
+    border-color:#fff;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -500,11 +509,15 @@ color: white;
     color: white;
 }
 
+/* Icon section styling  */
+
+
+
 /* footer section styling */
 footer{
     background: #111;
     padding: 15px 23px;
-    color: #fff;
+    color:#00C213;
     text-align: center;
 }
 footer span a{
@@ -517,13 +530,6 @@ footer span a:hover{
 
 
 /* responsive media query start */
-@media (max-width: 1104px) {
-    .about .about-content .left img{
-        height: 350px;
-        width: 350px;
-    }
-}
-
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
@@ -572,17 +578,7 @@ footer span a:hover{
     .max-width{
         max-width: 930px;
     }
-    .about .about-content .column{
-        width: 100%;
-    }
-    .about .about-content .left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-    .about .about-content .right{
-        flex: 100%;
-    }
+   
     .projects .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
