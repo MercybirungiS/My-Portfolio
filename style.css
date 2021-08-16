@@ -407,10 +407,14 @@ section .title::after{
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
+    
+}
+.skills .skills-content .right{
+    font-size: 20px;
 }
 .skills .skills-content .right span{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
 .skills .skills-content .right .line{
     height: 5px;
