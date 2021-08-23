@@ -227,7 +227,7 @@ section .title::after{
  color:#fff;
     background: #111;
     /* background-color: #eee; */
-  font-family: "Poppins", sans-serif;
+  font-family:'Roboto Slab', serif ;
   display: flex;
   justify-content: center;
   align-items: center;
